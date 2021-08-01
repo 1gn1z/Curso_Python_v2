@@ -17,5 +17,9 @@ print()
 
 edad = 28
 
-nombre_completo = nombre_completo + ' tiene ' + str(edad) + ' años.'
-print(nombre_completo)
+resultado = nombre_completo + ' tiene ' + str(edad) + ' años.'
+print(resultado)
+
+print()
+resultado = f'{nombre_completo} tiene {edad} años'
+print(resultado)
