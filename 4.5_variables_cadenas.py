@@ -1,7 +1,7 @@
 nombre = 'Kevor'
 apellido = 'Mastah'
 
-nombre_completo = nombre + apellido
+nombre_completo = nombre + ' ' + apellido
 
 print('Nombre: ', nombre)
 print('Apellido: ', apellido)
