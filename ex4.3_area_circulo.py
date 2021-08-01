@@ -4,7 +4,7 @@ Fórmula: π * r2
 '''
 import math
 
-radio = int(input('Ingrese el radio del círculo: '))
+radio = float(input('Ingrese el radio del círculo: '))
 
 #area = 3.1416 * radio ** 2
 area = math.pi * radio ** 2
